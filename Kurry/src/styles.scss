@@ -10,3 +10,11 @@ app-root{
         background-color: red;
        
      }
+     .middle{
+        display: grid;
+        grid-template-columns: minmax(300px, .2fr) minmax(600px, 1fr) ;
+       // grid-template-columns: minmax(min-content, 300px) minmax(200px, 1fr) 150px;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+     }
